@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ételek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            width: 250px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-left: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+        }
+
+        button {
+            background-color: #ff0000;
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            margin: 8px 4px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #c91414;
+        }
+
+        #valtozDesign {
+            background-color: #888;
+        }
+
+        #valtozDesign:hover {
+            background-color: #666;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        li {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+
+        li p {
+            padding: 6px;
+            background-color: #f5f5f5;
+            border-radius: 6px;
+        }
+
+        #megjegyzes {
+            background-color: #2facbd;
+        }
+
+        #megjegyzes:hover {
+            background-color: #0bccda;
+        }
+
+        #hozzaadInput {
+            background-color: #bdb000;
+        }
+
+        #hozzaadInput:hover {
+            background-color: #a1aa1e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kedvenc ételek listája</h1>
+    
+    <input type="text" id="szovegInput" placeholder="Add meg az étel nevét">
+    <br>
+    
+    <input type="radio" id="eloetel" name="etkezes" value="Előétel">
+    <label for="eloetel">Előétel</label>
+    <input type="radio" id="foetel" name="etkezes" value="Főétel">
+    <label for="foetel">Főétel</label>
+    <input type="radio" id="desszert" name="etkezes" value="Desszert">
+    <label for="desszert">Desszert</label>
+    
+
+    <button id="hozzaadInput">Hozzáadás</button>
+    <button id="valtozDesign">Új design</button>
+
+    <ul id="lista">
+        
+    </ul>
+    <button id="sajatAdatok">Kattints ide az adataimhoz!</button>
+<script>
+    document.getElementById("hozzaadInput").addEventListener("click", () => {
+            const inputSzoveg = document.getElementById("szovegInput");
+            if (inputSzoveg.value.trim() !== "") {
+                const lista = document.getElementById("lista");
+
+                const ujLi = document.createElement("li");
+
+                const inputButton = document.querySelector('input[name="etkezes"]:checked');
+                if (inputButton) {
+                ujLi.textContent = `${inputSzoveg.value} (${inputButton.value})`;
+                }
+                
+                const megjegyzes = document.createElement("button");
+                megjegyzes.textContent = "Értékelés";
+                megjegyzes.id = "megjegyzes";
+                megjegyzes.addEventListener("click", () => {
+                    let szoveg = prompt("Adj megjegyzést az ételről!")
+
+                    if (szoveg != null) {
+                    const ujBekezdes = document.createElement("p");
+                    ujBekezdes.textContent = szoveg;
+                    ujLi.appendChild(ujBekezdes);
+                    }
+                });
+                
+                const torles = document.createElement("button");
+                torles.textContent = "Törlés";
+                torles.addEventListener("click", () => ujLi.remove());
+                ujLi.appendChild(megjegyzes);
+                ujLi.appendChild(torles);
+                lista.insertBefore(ujLi, lista.children[1]);
+                inputSzoveg.value = "";
+            }
+
+        });
+
+        document.getElementById("valtozDesign").addEventListener("click", () => {
+            document.body.style.backgroundColor = "lightgray"
+            document.body.style.color = "red"
+            document.body.style.fontWeight = "bold"
+        });
+
+        document.getElementById("sajatAdatok").addEventListener("click", () => {
+            const adatok = document.createElement("p");
+            adatok.textContent = "Nyirati Bálint 13.B"
+            document.body.appendChild(adatok)
+        });
+</script>
+</body>
+</html>

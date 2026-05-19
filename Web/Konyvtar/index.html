@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieHub – Studio Ghibli Filmek</title>
+    <style>
+      :root {
+        --primary: #2c5f2d;
+        --accent: #f4a261;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", system-ui, sans-serif;
+        line-height: 1.7;
+        background: linear-gradient(135deg, #f8faf7 0%, #edf4eb 100%);
+        color: #333;
+      }
+
+      header {
+        background: var(--primary);
+        color: white;
+        padding: 1.2rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .nav-container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 2rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+      }
+
+      nav a:hover,
+      nav a.active {
+        background: rgba(255, 255, 255, 0.25);
+      }
+
+      main {
+        max-width: 1280px;
+        margin: 2.5rem auto;
+        padding: 0 2rem;
+      }
+
+      .page {
+        display: none;
+      }
+
+      .page.active {
+        display: block;
+        animation: fadeIn 0.4s ease forwards;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .card {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        padding: 2rem;
+        transition: all 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+      }
+
+      .films-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+
+      .film-card {
+        cursor: pointer;
+      }
+
+      .category {
+        display: inline-block;
+        padding: 6px 16px;
+        border-radius: 9999px;
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .category.weak {
+        background: #fee2e2;
+        color: #b91c1c;
+      }
+      .category.good {
+        background: #fef3c7;
+        color: #854d0e;
+      }
+      .category.outstanding {
+        background: #d1fae5;
+        color: #0f766e;
+      }
+
+      .detail-container {
+        background: white;
+        border-radius: 20px;
+        padding: 3rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .characters-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.8rem;
+      }
+
+      .loading {
+        text-align: center;
+        padding: 4rem 2rem;
+        font-size: 1.3rem;
+        color: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .spinner {
+        width: 32px;
+        height: 32px;
+        border: 5px solid #e5e7eb;
+        border-top-color: var(--primary);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+      }
+
+      th,
+      td {
+        padding: 16px 20px;
+        text-align: left;
+        border-bottom: 1px solid #eee;
+      }
+
+      th {
+        background: #f8faf8;
+        font-weight: 600;
+      }
+
+      .error {
+        background: #fee2e2;
+        color: #b91c1c;
+        padding: 1.2rem;
+        border-radius: 12px;
+        margin: 1rem 0;
+      }
+
+      .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 3rem;
+      }
+
+      button {
+        background: var(--primary);
+        color: white;
+        border: none;
+        padding: 12px 28px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.05rem;
+        transition: all 0.3s;
+      }
+
+      button:hover {
+        background: #1e4a1f;
+        transform: translateY(-2px);
+      }
+
+      input,
+      select {
+        padding: 14px 20px;
+        border: 2px solid #e5e7eb;
+        border-radius: 50px;
+        font-size: 1.05rem;
+      }
+
+      input:focus,
+      select:focus {
+        border-color: var(--accent);
+        outline: none;
+      }
+
+      @media (max-width: 768px) {
+        .nav-container {
+          flex-direction: column;
+          gap: 1.2rem;
+        }
+        nav ul {
+          gap: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="logo">🎬 MovieHub</div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#" onclick="navigateTo('home')" id="nav-home"
+                >Kezdőlap</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="navigateTo('films')" id="nav-films"
+                >Filmek</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="navigateTo('characters')" id="nav-characters"
+                >Karakterek</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="navigateTo('analysis')" id="nav-analysis"
+                >Elemzés</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="loading-screen" class="loading" style="display: none">
+      <div class="spinner"></div>
+      <span>Adatok betöltése a Studio Ghibli világából...</span>
+    </div>
+
+    <main>
+      <!-- KEZDŐOLDAL -->
+      <div id="home-page" class="page active">
+        <div class="card" style="text-align: center; padding: 4rem 2rem">
+          <h1
+            style="
+              font-size: 3.2rem;
+              margin-bottom: 1rem;
+              color: var(--primary);
+            "
+          >
+            Üdvözlünk a MovieHub-on!
+          </h1>
+          <p
+            style="
+              font-size: 1.35rem;
+              max-width: 720px;
+              margin: 0 auto 2.5rem;
+              color: #555;
+            "
+          >
+            Merülj el a Studio Ghibli varázslatos világában! Fedezd fel a
+            legszebb animációs filmeket, ismerd meg a kedvenc karaktereidet, és
+            nézd meg, mit mondanak a számok a stúdió alkotásairól.
+          </p>
+          <button
+            onclick="navigateTo('films')"
+            style="font-size: 1.3rem; padding: 18px 48px"
+          >
+            Böngéssz a filmek között →
+          </button>
+        </div>
+      </div>
+
+      <!-- FILM LISTA -->
+      <div id="films-page" class="page">
+        <div class="card">
+          <div
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              gap: 1.5rem;
+              align-items: center;
+              margin-bottom: 2.5rem;
+            "
+          >
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Keresés film cím szerint..."
+              onkeyup="if (event.key === 'Enter') renderFilmsList();"
+              style="flex: 1; min-width: 280px"
+            />
+
+            <select
+              id="sort-select"
+              onchange="renderFilmsList()"
+              style="min-width: 220px"
+            >
+              <option value="year-desc">Év szerint csökkenő</option>
+              <option value="year-asc">Év szerint növekvő</option>
+              <option value="rating-desc">Értékelés szerint csökkenő</option>
+              <option value="rating-asc">Értékelés szerint növekvő</option>
+            </select>
+
+            <button onclick="renderFilmsList()">Keresés</button>
+          </div>
+
+          <div id="films-grid" class="films-grid"></div>
+        </div>
+      </div>
+
+      <!-- FILM RÉSZLETEZŐ -->
+      <div id="film-detail-page" class="page">
+        <button
+          onclick="navigateTo('films')"
+          style="margin-bottom: 2rem; font-size: 1.1rem"
+        >
+          ← Vissza a filmekhez
+        </button>
+        <div id="detail-content" class="detail-container"></div>
+      </div>
+
+      <!-- KARAKTEREK -->
+      <div id="characters-page" class="page">
+        <div class="card">
+          <h2 style="margin-bottom: 2rem">A Studio Ghibli karakterei</h2>
+          <div id="characters-grid" class="characters-grid"></div>
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </div>
+
+      <!-- ELEMZÉS -->
+      <div id="analysis-page" class="page">
+        <div class="card">
+          <h2 style="margin-bottom: 2.5rem">📊 Érdekes statisztikák</h2>
+
+          <h3>Filmek száma megjelenési év szerint</h3>
+          <div id="year-stats" style="margin: 1.5rem 0 3rem"></div>
+
+          <h3>Rendezők átlagos értékelése</h3>
+          <div id="director-stats" style="margin: 1.5rem 0 3rem"></div>
+
+          <h3>A leghosszabb film</h3>
+          <div
+            id="longest-film"
+            class="card"
+            style="margin-top: 1rem; background: #ecfdf5"
+          ></div>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      style="
+        background: #1e3a1f;
+        color: #ddd;
+        text-align: center;
+        padding: 3rem 1rem;
+        margin-top: 5rem;
+      "
+    >
+      <p style="font-size: 1.1rem">MovieHub – Studio Ghibli rajongóknak ❤️</p>
+    </footer>
+
+    <script>
+      let allFilms = [];
+      let allPeople = [];
+      let urlToFilmTitle = new Map();
+      let currentPage = 1;
+      const ITEMS_PER_PAGE = 8;
+
+      function getCategory(score) {
+        const num = parseInt(score);
+        if (num < 70) return { text: "gyenge", className: "weak" };
+        if (num <= 85) return { text: "jó", className: "good" };
+        return { text: "kiemelkedő", className: "outstanding" };
+      }
+
+      async function loadData() {
+        const loadingScreen = document.getElementById("loading-screen");
+        loadingScreen.style.display = "flex";
+
+        try {
+          const [filmsRes, peopleRes] = await Promise.all([
+            fetch("https://ghibliapi.vercel.app/films"),
+            fetch("https://ghibliapi.vercel.app/people"),
+          ]);
+
+          allFilms = await filmsRes.json();
+          allPeople = await peopleRes.json();
+
+          // Film URL → cím gyors kereséshez
+          urlToFilmTitle = new Map();
+          allFilms.forEach((film) => {
+            urlToFilmTitle.set(
+              `https://ghibliapi.vercel.app/films/${film.id}`,
+              film.title,
+            );
+          });
+
+          loadingScreen.style.display = "none";
+          renderAnalysis(); // elemzés előre elkészítése
+        } catch (error) {
+          loadingScreen.style.display = "none";
+          alert(
+            "Sajnos nem sikerült betölteni az adatokat. Kérlek próbáld meg később!",
+          );
+          console.error(error);
+        }
+      }
+
+      function navigateTo(page) {
+        document
+          .querySelectorAll(".page")
+          .forEach((p) => p.classList.remove("active"));
+        document.getElementById(page + "-page").classList.add("active");
+
+        document
+          .querySelectorAll("nav a")
+          .forEach((a) => a.classList.remove("active"));
+        const activeLink = document.getElementById("nav-" + page);
+        if (activeLink) activeLink.classList.add("active");
+
+        if (page === "films") renderFilmsList();
+        if (page === "characters") {
+          currentPage = 1;
+          renderCharacters();
+        }
+      }
+
+      function renderFilmsList() {
+        const container = document.getElementById("films-grid");
+        const searchTerm = document
+          .getElementById("search-input")
+          .value.toLowerCase()
+          .trim();
+        const sortValue = document.getElementById("sort-select").value;
+
+        let filtered = allFilms.filter((film) =>
+          film.title.toLowerCase().includes(searchTerm),
+        );
+
+        // Rendezés
+        if (sortValue.includes("year")) {
+          filtered.sort((a, b) =>
+            sortValue === "year-desc"
+              ? b.release_date - a.release_date
+              : a.release_date - b.release_date,
+          );
+        } else {
+          filtered.sort((a, b) =>
+            sortValue === "rating-desc"
+              ? b.rt_score - a.rt_score
+              : a.rt_score - b.rt_score,
+          );
+        }
+
+        if (filtered.length === 0) {
+          container.innerHTML = `<p style="grid-column: 1/-1; text-align:center; padding:4rem; font-size:1.3rem; color:#666;">
+                    Nincs találat a keresett címre.
+                </p>`;
+          return;
+        }
+
+        let html = "";
+        filtered.forEach((film) => {
+          const cat = getCategory(film.rt_score);
+          html += `
+                <div class="card film-card" onclick="showFilmDetail('${film.id}')">
+                    <h3>${film.title}</h3>
+                    <p><strong>Év:</strong> ${film.release_date}</p>
+                    <p><strong>Rendező:</strong> ${film.director}</p>
+                    <p>
+                        <strong>Értékelés:</strong> ${film.rt_score} 
+                        <span class="category ${cat.className}">${cat.text}</span>
+                    </p>
+                </div>`;
+        });
+        container.innerHTML = html;
+      }
+
+      async function showFilmDetail(id) {
+        navigateTo("film-detail");
+        const container = document.getElementById("detail-content");
+
+        container.innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <span>Film részleteinek betöltése...</span>
+                </div>`;
+
+        try {
+          const res = await fetch(`https://ghibliapi.vercel.app/films/${id}`);
+          const film = await res.json();
+
+          const characterCount = film.people ? film.people.length : 0;
+          const cat = getCategory(film.rt_score);
+
+          container.innerHTML = `
+                    <h1 style="margin-bottom: 0.8rem;">${film.title}</h1>
+                    <p style="font-size: 1.15rem; color: #555; margin-bottom: 2rem;">
+                        <strong>Eredeti cím:</strong> ${film.original_title}
+                    </p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; font-size: 1.1rem;">
+                        <div><strong>Játékidő:</strong> ${film.running_time} perc</div>
+                        <div><strong>Értékelés:</strong> ${film.rt_score} 
+                            <span class="category ${cat.className}">${cat.text}</span>
+                        </div>
+                        <div><strong>Karakterek:</strong> ${characterCount} fő</div>
+                        <div><strong>Rendező:</strong> ${film.director}</div>
+                    </div>
+                    
+                    <h3>Leírás</h3>
+                    <p style="font-size: 1.15rem; line-height: 1.8;">${film.description}</p>
+                `;
+        } catch (err) {
+          container.innerHTML = `<div class="error">Nem sikerült betölteni a film adatait. Próbáld meg később!</div>`;
+        }
+      }
+
+      function renderCharacters() {
+        const container = document.getElementById("characters-grid");
+        const pagination = document.getElementById("pagination");
+
+        const start = (currentPage - 1) * ITEMS_PER_PAGE;
+        const end = start + ITEMS_PER_PAGE;
+        const paginated = allPeople.slice(start, end);
+
+        let html = "";
+        paginated.forEach((person) => {
+          const filmTitles = person.films
+            ? person.films
+                .map((url) => urlToFilmTitle.get(url) || "Ismeretlen")
+                .join(", ")
+            : "Nem szerepel filmben";
+
+          html += `
+                <div class="card">
+                    <h3>${person.name}</h3>
+                    <p><strong>Nem:</strong> ${person.gender}</p>
+                    <p><strong>Életkor:</strong> ${person.age || "Ismeretlen"}</p>
+                    <p style="margin-top: 12px;"><strong>Szerepel itt:</strong><br>${filmTitles}</p>
+                </div>`;
+        });
+
+        container.innerHTML = html;
+
+        const totalPages = Math.ceil(allPeople.length / ITEMS_PER_PAGE);
+        pagination.innerHTML = `
+                <button onclick="prevPage()" ${currentPage === 1 ? "disabled" : ""}>Előző</button>
+                <span style="font-weight:600; font-size:1.1rem;">${currentPage} / ${totalPages}</span>
+                <button onclick="nextPage()" ${currentPage === totalPages ? "disabled" : ""}>Következő</button>
+            `;
+      }
+
+      function prevPage() {
+        if (currentPage > 1) {
+          currentPage--;
+          renderCharacters();
+        }
+      }
+      function nextPage() {
+        const total = Math.ceil(allPeople.length / ITEMS_PER_PAGE);
+        if (currentPage < total) {
+          currentPage++;
+          renderCharacters();
+        }
+      }
+
+      function renderAnalysis() {
+        // Évek szerinti statisztika
+        const yearCount = allFilms.reduce((acc, film) => {
+          acc[film.release_date] = (acc[film.release_date] || 0) + 1;
+          return acc;
+        }, {});
+
+        let yearHTML =
+          "<table><thead><tr><th>Év</th><th>Filmek száma</th></tr></thead><tbody>";
+        Object.keys(yearCount)
+          .sort((a, b) => b - a)
+          .forEach((year) => {
+            yearHTML += `<tr><td><strong>${year}</strong></td><td>${yearCount[year]} darab</td></tr>`;
+          });
+        yearHTML += "</tbody></table>";
+        document.getElementById("year-stats").innerHTML = yearHTML;
+
+        // Rendezők átlaga
+        const directorStats = {};
+        allFilms.forEach((film) => {
+          const dir = film.director;
+          if (!directorStats[dir]) directorStats[dir] = { sum: 0, count: 0 };
+          directorStats[dir].sum += parseInt(film.rt_score);
+          directorStats[dir].count++;
+        });
+
+        let dirHTML =
+          "<table><thead><tr><th>Rendező</th><th>Átlagos értékelés</th></tr></thead><tbody>";
+        Object.keys(directorStats)
+          .sort(
+            (a, b) =>
+              directorStats[b].sum / directorStats[b].count -
+              directorStats[a].sum / directorStats[a].count,
+          )
+          .forEach((dir) => {
+            const avg = (
+              directorStats[dir].sum / directorStats[dir].count
+            ).toFixed(1);
+            dirHTML += `<tr><td>${dir}</td><td><strong>${avg}</strong></td></tr>`;
+          });
+        dirHTML += "</tbody></table>";
+        document.getElementById("director-stats").innerHTML = dirHTML;
+
+        // Leghosszabb film
+        const longest = allFilms.reduce((max, film) =>
+          parseInt(film.running_time) > parseInt(max.running_time) ? film : max,
+        );
+
+        document.getElementById("longest-film").innerHTML = `
+                <h3 style="color: var(--primary);">${longest.title}</h3>
+                <p><strong>Játékidő:</strong> ${longest.running_time} perc</p>
+                <p><strong>Rendező:</strong> ${longest.director} • ${longest.release_date}</p>
+            `;
+      }
+
+      // Indítás
+      window.onload = loadData;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\bin\Debug\net9.0\EgyszerVolt.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\bin\Debug\net9.0\EgyszerVolt.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\bin\Debug\net9.0\EgyszerVolt.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\bin\Debug\net9.0\EgyszerVolt.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\bin\Debug\net9.0\EgyszerVolt.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\EgyszerVolt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\EgyszerVolt.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\EgyszerVolt.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\EgyszerVolt.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\EgyszerVolt.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\refint\EgyszerVolt.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\EgyszerVolt.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\EgyszerVolt.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\mese_feladat\EgyszerVolt\obj\Debug\net9.0\ref\EgyszerVolt.dll

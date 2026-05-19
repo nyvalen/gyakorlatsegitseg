@@ -1,0 +1,32 @@
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.exe
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.deps.json
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.runtimeconfig.json
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.dll
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.pdb
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.Form1.resources
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.csproj.GenerateResource.cache
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.AssemblyInfoInputs.cache
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.AssemblyInfo.cs
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.csproj.CoreCompileInputs.cache
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.dll
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\refint\military_shop.dll
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.pdb
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.genruntimeconfig.cache
+C:\Users\furdujcs\OneDrive - Energetikai Technikum és Kollégium\2025-2026\Nikl Éva\2026.04.28\military_shop\military_shop\obj\Debug\net8.0-windows\ref\military_shop.dll
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.exe
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.deps.json
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.runtimeconfig.json
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.dll
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\bin\Debug\net8.0-windows\military_shop.pdb
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.Form1.resources
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.csproj.GenerateResource.cache
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.AssemblyInfoInputs.cache
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.AssemblyInfo.cs
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.csproj.CoreCompileInputs.cache
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.dll
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\refint\military_shop.dll
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.pdb
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\military_shop.genruntimeconfig.cache
+C:\Users\pocok\Downloads\military_shop\military_shop\military_shop\obj\Debug\net8.0-windows\ref\military_shop.dll

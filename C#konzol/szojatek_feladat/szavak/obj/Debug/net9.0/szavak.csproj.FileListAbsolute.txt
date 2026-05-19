@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\bin\Debug\net9.0\szavak.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\bin\Debug\net9.0\szavak.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\bin\Debug\net9.0\szavak.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\bin\Debug\net9.0\szavak.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\bin\Debug\net9.0\szavak.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\szavak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\szavak.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\szavak.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\szavak.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\szavak.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\refint\szavak.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\szavak.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\szavak.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\szojatek_feladat\szavak\obj\Debug\net9.0\ref\szavak.dll

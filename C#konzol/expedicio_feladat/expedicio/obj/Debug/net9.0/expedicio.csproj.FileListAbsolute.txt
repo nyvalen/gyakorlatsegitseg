@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\bin\Debug\net9.0\expedicio.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\bin\Debug\net9.0\expedicio.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\bin\Debug\net9.0\expedicio.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\bin\Debug\net9.0\expedicio.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\bin\Debug\net9.0\expedicio.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\expedicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\expedicio.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\expedicio.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\expedicio.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\expedicio.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\refint\expedicio.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\expedicio.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\expedicio.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\expedicio_feladat\expedicio\obj\Debug\net9.0\ref\expedicio.dll

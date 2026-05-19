@@ -1,0 +1,146 @@
+{
+  "info": {
+    "_postman_id": "105d1f6c-f23f-4bdc-8f51-e8f39b34dcc2",
+    "name": "SzamlanyilvantartoAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50158016",
+    "_collection_link": "https://go.postman.co/collection/50158016-105d1f6c-f23f-4bdc-8f51-e8f39b34dcc2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "PostPartnerek",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n     \"partnerNev\": \"Teszt2 Kft.\",\r\n     \"email\": \"teszt2kft@teszt2.hu\"\r\n }\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7177/api/partnerek",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7177",
+          "path": [
+            "api",
+            "partnerek"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetPartnerek",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7177/api/partnerek",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7177",
+          "path": [
+            "api",
+            "partnerek"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetSzerzodesek",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n     \"partnerNev\": \"Teszt2 Kft.\",\r\n     \"email\": \"teszt2kft@teszt2.hu\"\r\n }\r\n"
+        },
+        "url": {
+          "raw": "https://localhost:7177/api/szerzodesek",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7177",
+          "path": [
+            "api",
+            "szerzodesek"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PutSzerzodesek",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\": 1,\r\n    \"szerzodesSzam\": \"SZER2025/123\",\r\n    \"igazgatoJovahagyta\": true,\r\n    \"szerzodesTargya\": \"Szerződésnyilvántartó szoftver fejlesztése\",\r\n    \"partnerId\": 1\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7177/api/szerzodesek/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7177",
+          "path": [
+            "api",
+            "szerzodesek",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostSzerzodesek",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"szerzodesSzam\": \"SZER2025/124\",\r\n    \"igazgatoJovahagyta\": false,\r\n    \"szerzodesTargya\": \"Szerződésnyilvántartó szoftver fejlesztése\",\r\n    \"partnerId\": 1\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7177/api/szerzodesek",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7177",
+          "path": [
+            "api",
+            "szerzodesek"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

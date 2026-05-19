@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\bin\Debug\net9.0\autoapp.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\bin\Debug\net9.0\autoapp.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\bin\Debug\net9.0\autoapp.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\bin\Debug\net9.0\autoapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\bin\Debug\net9.0\autoapp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\autoapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\autoapp.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\autoapp.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\autoapp.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\autoapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\refint\autoapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\autoapp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\autoapp.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\auto_feladat\autoapp\obj\Debug\net9.0\ref\autoapp.dll

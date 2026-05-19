@@ -1,0 +1,4 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\vizsga_gyak\random\obj\Debug\net9.0\random.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\vizsga_gyak\random\obj\Debug\net9.0\random.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\vizsga_gyak\random\obj\Debug\net9.0\random.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\vizsga_gyak\random\obj\Debug\net9.0\random.csproj.CoreCompileInputs.cache

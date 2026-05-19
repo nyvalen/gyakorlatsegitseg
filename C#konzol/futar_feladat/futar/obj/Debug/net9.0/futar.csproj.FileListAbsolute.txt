@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\bin\Debug\net9.0\futar.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\bin\Debug\net9.0\futar.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\bin\Debug\net9.0\futar.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\bin\Debug\net9.0\futar.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\bin\Debug\net9.0\futar.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\futar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\futar.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\futar.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\futar.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\futar.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\refint\futar.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\futar.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\futar.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\futar_feladat\futar\obj\Debug\net9.0\ref\futar.dll

@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\bin\Debug\net9.0\kutyaapp.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\bin\Debug\net9.0\kutyaapp.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\bin\Debug\net9.0\kutyaapp.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\bin\Debug\net9.0\kutyaapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\bin\Debug\net9.0\kutyaapp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\kutyaapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\kutyaapp.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\kutyaapp.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\kutyaapp.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\kutyaapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\refint\kutyaapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\kutyaapp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\kutyaapp.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\kutya_feladat\kutyaapp\obj\Debug\net9.0\ref\kutyaapp.dll

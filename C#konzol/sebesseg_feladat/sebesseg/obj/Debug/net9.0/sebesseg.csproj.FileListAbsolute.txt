@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\bin\Debug\net9.0\sebesseg.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\bin\Debug\net9.0\sebesseg.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\bin\Debug\net9.0\sebesseg.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\bin\Debug\net9.0\sebesseg.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\bin\Debug\net9.0\sebesseg.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\sebesseg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\sebesseg.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\sebesseg.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\sebesseg.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\sebesseg.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\refint\sebesseg.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\sebesseg.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\sebesseg.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\sebesseg_feladat\sebesseg\obj\Debug\net9.0\ref\sebesseg.dll

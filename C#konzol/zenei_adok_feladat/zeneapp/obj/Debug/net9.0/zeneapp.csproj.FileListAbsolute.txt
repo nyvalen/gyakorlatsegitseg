@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\bin\Debug\net9.0\zeneapp.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\bin\Debug\net9.0\zeneapp.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\bin\Debug\net9.0\zeneapp.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\bin\Debug\net9.0\zeneapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\bin\Debug\net9.0\zeneapp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\zeneapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\zeneapp.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\zeneapp.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\zeneapp.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\zeneapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\refint\zeneapp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\zeneapp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\zeneapp.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\zenei_adok_feladat\zeneapp\obj\Debug\net9.0\ref\zeneapp.dll

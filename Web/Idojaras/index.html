@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenDataWeather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🌤️ OpenDataWeather</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('home')">Kezdőlap</a></li>
+                    <li><a href="#" onclick="navigateTo('cities')">Városok</a></li>
+                    <li><a href="#" onclick="navigateTo('forecast')">Előrejelzés</a></li>
+                    <li><a href="#" onclick="navigateTo('filter')">Szűrés</a></li>
+                    <li><a href="#" onclick="navigateTo('weekly')">Heti bontás</a></li>
+                    <li><a href="#" onclick="navigateTo('stats')">Statisztikák</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- HOME -->
+        <div id="home-page" class="page">
+            <div class="hero">
+                <h2>Időjárási adatok feldolgozása</h2>
+                <p>Az Open-Meteo API segítségével valós idejű időjárási előrejelzéseket jelenítünk meg különböző városokban.</p>
+                <button onclick="navigateTo('cities')" class="btn-primary">Város kiválasztása</button>
+            </div>
+        </div>
+
+        <!-- CITIES -->
+        <div id="cities-page" class="page hidden">
+            <h2>Város kiválasztása</h2>
+            <select id="city-select" onchange="selectCity()">
+                <option value="">Válassz várost...</option>
+            </select>
+            
+            <div id="selected-city-info" class="mt-4"></div>
+        </div>
+
+        <!-- FORECAST -->
+        <div id="forecast-page" class="page hidden">
+            <h2 id="forecast-title">7 napos előrejelzés</h2>
+            <div id="loading" class="loading">Betöltés...</div>
+            <div id="forecast-grid" class="forecast-grid"></div>
+        </div>
+
+        <!-- FILTER -->
+        <div id="filter-page" class="page hidden">
+            <h2>Szűrés</h2>
+            <div class="filters">
+                <button onclick="filterRainy()" class="btn-secondary">Csak esős napok</button>
+                <button onclick="filterHot()" class="btn-secondary">Csak meleg napok (&gt;25°C)</button>
+                <button onclick="resetFilter()" class="btn-secondary">Szűrők törlése</button>
+            </div>
+            <div id="filter-grid" class="forecast-grid"></div>
+        </div>
+
+        <!-- WEEKLY -->
+        <div id="weekly-page" class="page hidden">
+            <h2>Heti bontás</h2>
+            <div id="weekly-summary" class="weekly-summary"></div>
+            <div id="weekly-grid" class="forecast-grid"></div>
+        </div>
+
+        <!-- STATS -->
+        <div id="stats-page" class="page hidden">
+            <h2>Statisztikák</h2>
+            <div id="stats-content" class="stats-grid"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Frontend Komplex Webfejlesztési Feladat - OpenDataWeather</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

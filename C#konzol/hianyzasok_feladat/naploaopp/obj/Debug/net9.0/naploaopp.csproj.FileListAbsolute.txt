@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\bin\Debug\net9.0\naploaopp.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\bin\Debug\net9.0\naploaopp.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\bin\Debug\net9.0\naploaopp.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\bin\Debug\net9.0\naploaopp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\bin\Debug\net9.0\naploaopp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\naploaopp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\naploaopp.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\naploaopp.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\naploaopp.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\naploaopp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\refint\naploaopp.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\naploaopp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\naploaopp.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\hianyzasok_feladat\naploaopp\obj\Debug\net9.0\ref\naploaopp.dll

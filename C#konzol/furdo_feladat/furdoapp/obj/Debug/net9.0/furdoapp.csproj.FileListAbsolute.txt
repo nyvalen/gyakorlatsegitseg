@@ -1,0 +1,14 @@
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\bin\Debug\net9.0\furdoapp.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\bin\Debug\net9.0\furdoapp.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\bin\Debug\net9.0\furdoapp.runtimeconfig.json
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\bin\Debug\net9.0\furdoapp.dll
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\bin\Debug\net9.0\furdoapp.pdb
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\furdoapp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\furdoapp.AssemblyInfoInputs.cache
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\furdoapp.AssemblyInfo.cs
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\furdoapp.csproj.CoreCompileInputs.cache
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\furdoapp.dll
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\refint\furdoapp.dll
+c:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\furdoapp.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\furdoapp.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\furdo_feladat\furdoapp\obj\Debug\net9.0\ref\furdoapp.dll

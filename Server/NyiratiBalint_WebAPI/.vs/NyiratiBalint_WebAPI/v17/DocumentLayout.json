@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\controllers\\szerzodesekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\controllers\\szerzodesekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\dtos\\szerzodes\\szerzodesreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\dtos\\szerzodes\\szerzodesreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\controllers\\partnerekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\controllers\\partnerekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\dtos\\szerzodes\\szerzodesupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\dtos\\szerzodes\\szerzodesupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\dtos\\szerzodes\\szerzodescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\dtos\\szerzodes\\szerzodescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\dtos\\partner\\partnerreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\dtos\\partner\\partnerreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\dtos\\partner\\partnercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\dtos\\partner\\partnercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\models\\szerzodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\models\\szerzodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\dtos\\partner\\partnerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\dtos\\partner\\partnerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\migrations\\20260421105616_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\migrations\\20260421105616_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\data\\szerzodesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\data\\szerzodesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|c:\\users\\nyiratib\\source\\repos\\nyiratibalint_webapi\\nyiratibalint_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C12311-E69B-4E4D-8D78-CA4728AF1645}|NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI.csproj|solutionrelative:nyiratibalint_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SzerzodesekController.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Controllers\\SzerzodesekController.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Controllers\\SzerzodesekController.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Controllers\\SzerzodesekController.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Controllers\\SzerzodesekController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:14:29.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SzerzodesReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesReadDto.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesReadDto.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesReadDto.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:03:08.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SzerzodesUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesUpdateDto.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesUpdateDto.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesUpdateDto.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:06:01.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartnerekController.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Controllers\\PartnerekController.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Controllers\\PartnerekController.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Controllers\\PartnerekController.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Controllers\\PartnerekController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:01:08.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SzerzodesCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesCreateDto.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesCreateDto.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesCreateDto.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Dtos\\Szerzodes\\SzerzodesCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:05:38.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PartnerUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerUpdateDto.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerUpdateDto.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerUpdateDto.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:02:54.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PartnerCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerCreateDto.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerCreateDto.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerCreateDto.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:02:31.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PartnerReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerReadDto.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerReadDto.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerReadDto.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Dtos\\Partner\\PartnerReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T11:01:50.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260421105616_init.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Migrations\\20260421105616_init.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Migrations\\20260421105616_init.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Migrations\\20260421105616_init.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Migrations\\20260421105616_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T10:56:16.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Program.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T10:54:00.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\appsettings.json",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-21T10:53:11.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SzerzodesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Data\\SzerzodesDbContext.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Data\\SzerzodesDbContext.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Data\\SzerzodesDbContext.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Data\\SzerzodesDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T10:51:37.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Szerzodes.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Models\\Szerzodes.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Models\\Szerzodes.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Models\\Szerzodes.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Models\\Szerzodes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T10:47:18.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Partner.cs",
+              "DocumentMoniker": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Models\\Partner.cs",
+              "RelativeDocumentMoniker": "NyiratiBalint_WebAPI\\Models\\Partner.cs",
+              "ToolTip": "C:\\Users\\nyiratib\\Source\\Repos\\NyiratiBalint_WebAPI\\NyiratiBalint_WebAPI\\Models\\Partner.cs",
+              "RelativeToolTip": "NyiratiBalint_WebAPI\\Models\\Partner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T10:46:47.007Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

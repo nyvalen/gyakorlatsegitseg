@@ -1,0 +1,14 @@
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\bin\Debug\net9.0\tesztverseny.exe
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\bin\Debug\net9.0\tesztverseny.deps.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\bin\Debug\net9.0\tesztverseny.runtimeconfig.json
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\bin\Debug\net9.0\tesztverseny.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\bin\Debug\net9.0\tesztverseny.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\tesztverseny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\tesztverseny.AssemblyInfoInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\tesztverseny.AssemblyInfo.cs
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\tesztverseny.csproj.CoreCompileInputs.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\tesztverseny.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\refint\tesztverseny.dll
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\tesztverseny.pdb
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\tesztverseny.genruntimeconfig.cache
+C:\Users\Mate\Desktop\Programozas\Cs\Nikl\tesztverseny_feladat\tesztverseny\obj\Debug\net9.0\ref\tesztverseny.dll
